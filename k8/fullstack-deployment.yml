@@ -28,7 +28,7 @@ spec:
             - containerPort: 3306
           env:
             - name: MYSQL_ROOT_PASSWORD
-              value: @Nikhil1766     # ⚠️ change this for production
+              value: ROOT    # ⚠️ change this for production
             - name: MYSQL_DATABASE
               value: art_gallery
           volumeMounts:
